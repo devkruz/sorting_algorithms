@@ -1,1 +1,2 @@
-# This is a readme file for sorting algorthims and Big
+# Sorting algorthims
+## Implementing different type of sorting algorthims
