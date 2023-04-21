@@ -24,6 +24,9 @@ void insertion_sort_array(int *array, int size)
 {
 	int sorted_index, unsorted_index, to_sort;
 
+	if (array == NULL || size <= 1)
+		return;
+
 	for (unsorted_index = 1; unsorted_index < size; unsorted_index++)
 	{
 		sorted_index = unsorted_index - 1;
